@@ -11,16 +11,16 @@
   "model": "courses.subject",
   "pk": 2,
   "fields": {
-    "title": "Physics",
-    "slug": "physics"
+    "title": "Music",
+    "slug": "music"
   }
 },
 {
   "model": "courses.subject",
   "pk": 3,
   "fields": {
-    "title": "Music",
-    "slug": "music"
+    "title": "Physics",
+    "slug": "physics"
   }
 },
 {
