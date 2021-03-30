@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'embed_video',
     'memcache_status',
+    'rest_framework',
 
     'courses',
     'students',
@@ -137,4 +138,11 @@ CACHES = {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
         'LOCATION': '1270.0.1:11211',
     }
+}
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
 }
